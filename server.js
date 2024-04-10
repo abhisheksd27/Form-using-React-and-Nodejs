@@ -1,4 +1,4 @@
-// server.js
+
 
 const express = require('express');
 const cors = require('cors');
@@ -20,4 +20,4 @@ app.post('/submit', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
-});
+}); 
